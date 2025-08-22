@@ -19,6 +19,9 @@ public class My_classA {
         college_student cs=new college_student("abhi",12);
         cs.attend_class();
         cs.give_exam();
+
+
+
     }
 }
 
