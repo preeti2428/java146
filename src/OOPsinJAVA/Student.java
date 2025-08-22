@@ -1,4 +1,4 @@
-//package OOPsinJAVA;
+package OOPsinJAVA;
 //
 //public class Student{
 //    String name;
@@ -27,3 +27,21 @@
 //    }
 //
 //}
+
+public class Student{
+    private String grade;
+    public int roll_no;
+
+    public Student(String grade){
+        this.grade=grade;
+    }
+
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade){
+        this.grade=grade;
+    }
+}
